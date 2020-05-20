@@ -1,0 +1,60 @@
+import { IPersona, ITag } from "office-ui-fabric-react/lib";
+
+export interface IFormData {
+    PurchaserNameDirectorate:number;
+    ContractManagerDirectorate:number;
+    SpokenToCommercial:boolean;
+    ProcurementRoute:number;
+    StaProcurement:boolean;
+    ProcurementStatus:string;
+    ProcReference:string;
+    PurchaserName:IPersona[];
+    ContractManager:IPersona[];
+    PurchaseCategory:ITag[]; 
+    BusinessCaseAttached:boolean;
+    BusinessCaseRequirement?:number; 
+    ProcurementStartDate:string; 
+    ProcurementEndDate:string; 
+    ContractTitle:string; 
+    PreviousContractValue?:number;
+    ContractValue:number;
+    TotalContractValue:number;
+    ReasonsForPurchase:string; 
+    ApprovedScope:number; 
+    RouteToMarket:number; 
+    OtherFrameworkName:string;
+    StaType:number; 
+    UnableProcureCompetitively:string; 
+    UnableProcureCompetitivelyReason:string;
+    SupportingDetails?:string;
+    CompanyName?:string; 
+    ContactName?:string; 
+    TendererContactEmail?:string; 
+    TendererContactTelephone?:string; 
+    DpoOptions:number; 
+    IsmOptions:number; 
+    SubProjectCode:string; 
+    SubProjectCodeDescription:string; 
+    ProjectCode:string; 
+    CostCentre:string; 
+    DirectorateOfPurchase:string; 
+    PrimaryBusinessManager:string;
+    SecondaryBusinessManager:string;
+    PrimaryFinancialApprover?:string;
+    /**
+     * @description the selected user from the dropdown
+     */
+    SecondaryFinancialApprover?:string;
+    StaCompliant?:boolean; 
+    CommercialManager:IPersona[];
+    ContractNumber:number; 
+    ProcurementStrategy:string; 
+    ProcurementType:number; 
+    ProcurementNotes:string; 
+    ReasonForRejection:string; 
+    SuggestedTendererStatus:number; 
+    Variation?:string;
+    VariationCheck:boolean;
+    Attachments?:any;
+    RedraftingNotPossible:string;
+}

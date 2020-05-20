@@ -1,0 +1,88 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.dsErrorLabel {
+  -webkit-font-smoothing: antialiased;
+  font-size: 12px;
+  font-weight: 400;
+  color: #a80000;
+  font-family: "Segoe UI Web (West European)","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+}
+
+/* .icon {
+  font-size: 30px;
+  margin: 0.65em auto 0em auto;
+} */
+
+.row {
+  @include ms-Grid-row;
+  // @include ms-fontColor-white;    
+  // background-color: $ms-color-themeLight;
+  // padding: 20px;
+  padding-top: 10px;
+}
+
+.column {
+  @include ms-Grid-col;
+  @include ms-lg12;
+  @include ms-xl12;
+  // @include ms-xlPush2;
+  // @include ms-lgPush1;
+}
+
+.column1 {
+  @include ms-Grid-col;
+  @include ms-lg1;
+  @include ms-xl1;
+}
+
+.column2 {
+  @include ms-Grid-col;
+  @include ms-lg2;
+  @include ms-xl2;
+}
+.column3 {
+  @include ms-Grid-col;
+  @include ms-lg3;
+  @include ms-xl3;
+}
+.column8 {
+  @include ms-Grid-col;
+  @include ms-lg8;
+  @include ms-xl8;
+}
+.column9 {
+  @include ms-Grid-col;
+  @include ms-lg9;
+  @include ms-xl9;
+}
+.column10 {
+  @include ms-Grid-col;
+  @include ms-lg10;
+  @include ms-xl10;
+}
+.column12 {
+  @include ms-Grid-col;
+  @include ms-lg12;
+  @include ms-xl12;
+}
+
+.column4 {
+  @include ms-Grid-col;
+  @include ms-lg4;
+  @include ms-xl4;
+}
+
+.column2 {
+  @include ms-Grid-col;
+  @include ms-lg2;
+  @include ms-xl2;
+}
+
+.column6 {
+  @include ms-Grid-col;
+  @include ms-lg6;
+  @include ms-xl6;
+}
+
+
+

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "rtp-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/rtpForm/RtpFormWebPart.js",
+          "manifest": "./src/webparts/rtpForm/RtpFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RtpFormWebPartStrings": "lib/webparts/rtpForm/loc/{locale}.js"
+  }
+}

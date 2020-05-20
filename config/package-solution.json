@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "rtp-client-side-solution",
+    "id": "7e24684f-33a0-481a-8c85-645405d6b4e6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [  
+      {  
+        "resource": "Microsoft Graph",  
+        "scope": "User.ReadBasic.All"  
+      }  
+    ],
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/rtp.sppkg"
+  }
+}
